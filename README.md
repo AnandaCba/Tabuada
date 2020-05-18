@@ -1,4 +1,4 @@
-git# Tabuada
+# Tabuada
 
 ## Sobre o projeto:
  Construir uma tabuada sem frameworks para fixar o aprendizado base de JS, HTML5 e CSS3. (Aula CursoEmVideo)
