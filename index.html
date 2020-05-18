@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Curso em Vídeo</title>
+</head>
+<body>
+<center>
+    <header>
+        <h1>
+            Tabuada
+        </h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Número: 
+                <input 
+                    type="number" 
+                    name="numero" 
+                    id="txtn">
+            </p>
+                <input 
+                    type="button" 
+                    value="Obter tabuada" 
+                    id="btn"
+                    onclick="tabuada()">
+        </div><br>
+        <div id="res">
+            <select 
+                name="tabuada" 
+                id="tabu" 
+                size="10">
+                <option>
+                    Digite um número acima.
+                </option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p> &copy; AulaCursoEmVideo </p>
+    </footer>
+    <script src="script.js"></script>
+</center>
+</body>
+</html>
